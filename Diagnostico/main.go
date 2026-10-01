@@ -30,7 +30,15 @@ func main (){
 	fmt.Println("Diagnostico")
 	fmt.Println("Bienvenido al menú")
 	for {
-		fmt.Println("Elija la opción que desee realizar \n Opción 0 = Salir del menú \n Opción 1 = ")
+		fmt.Println("Elija la opción que desee realizar \n Opción 1 = Salir del menú \n Opción 2 = Registrar una nueva venta \n Opción 3 = Mostrar estadísticas")
+		switch opcion(
+		case 1: 
+		break 
+		case 2:
+			var numProducto, cantidad int
+			var nombre string
+			var precio float64
+		)
 	}
 
 }
